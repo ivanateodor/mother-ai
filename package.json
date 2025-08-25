@@ -4,15 +4,17 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "mastra dev --dir src/mastra"
+    "dev": "mastra dev",          // runs Mastra Dev Server (defaults to src/mastra)
+    "build": "mastra build"
   },
   "dependencies": {
-    "mastra": "^0.5.0",
     "@ai-sdk/openai": "^2.0.20",
-    "typescript": "^5.5.4"
+    "@mastra/core": "^0.5.0"
   },
   "devDependencies": {
-    "tsx": "^4.19.0"
+    "mastra": "^0.5.0",           // CLI
+    "typescript": "^5.5.4",
+    "tsx": "^4.19.0",
+    "@types/node": "^20.14.2"
   }
 }
-
