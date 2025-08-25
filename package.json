@@ -1,18 +1,16 @@
 {
-  "name": "mother-ai",
-  "version": "0.1.0",
-  "private": true,
-  "type": "module",
   "scripts": {
-    "dev": "mastra dev",          // runs Mastra Dev Server (defaults to src/mastra)
-    "build": "mastra build"
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "dev:api": "tsx watch src/index.ts",
+    "start": "node dist/index.js"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^2.0.20",
-    "@mastra/core": "^0.5.0"
+    "@mastra/core": "^0.5.0",
+    "@ai-sdk/openai": "^2.0.20"
   },
   "devDependencies": {
-    "mastra": "^0.5.0",           // CLI
+    "mastra": "^0.5.0",
     "typescript": "^5.5.4",
     "tsx": "^4.19.0",
     "@types/node": "^20.14.2"
