@@ -1,4 +1,4 @@
-import { Mastra } from "mastra";
+import { Mastra } from "@mastra/core/mastra";
 import { motherAgent } from "./agents/mother";
 
 export const mastra = new Mastra({
