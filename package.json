@@ -6,7 +6,7 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@mastra/core": "^0.5.0",
+    "@mastra/core": "^0.14.1",
     "@ai-sdk/openai": "^2.0.20"
   },
   "devDependencies": {
